@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+
+	<title>@ViewBag.Title</title>
+
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+	<link href="~/Content/Site.css" rel="stylesheet" />
+
+	@RenderSection(name: "StyleSheetExceptions", required: false)
+
+	<script src="~/Scripts/jquery-3.1.0.min.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+
+	@RenderSection(name: "JavaScriptExceptions", required: false)
+</head>
+<body>
+	<div class="container">
+		<h1>
+			Layout: Learn (7)
+		</h1>
+
+		@RenderBody()
+	</div>
+</body>
+</html>

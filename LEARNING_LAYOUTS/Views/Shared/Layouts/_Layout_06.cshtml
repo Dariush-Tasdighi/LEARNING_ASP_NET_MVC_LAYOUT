@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+
+	<title>@ViewBag.Title</title>
+
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+	<link href="~/Content/Site.css" rel="stylesheet" />
+
+	<script src="~/Scripts/jquery-3.1.0.min.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				@if (IsSectionDefined(name: "SomeSection"))
+				{
+					@RenderSection(name: "SomeSection", required: false)
+				}
+				else
+				{
+					<a href="~/Account/Login">Login</a>
+				}
+			</div>
+		</div>
+
+		<h1>
+			Layout: Learn (6)
+		</h1>
+
+		@RenderBody()
+	</div>
+</body>
+</html>
