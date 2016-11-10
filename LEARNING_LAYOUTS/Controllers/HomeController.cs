@@ -8,8 +8,7 @@ namespace LEARNING_LAYOUTS.Controllers
 		/// <summary>
 		/// Step (1)
 		/// </summary>
-		public HomeController()
-			: base()
+		public HomeController() : base()
 		{
 		}
 

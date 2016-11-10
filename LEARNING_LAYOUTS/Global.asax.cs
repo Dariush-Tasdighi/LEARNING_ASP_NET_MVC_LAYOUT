@@ -5,8 +5,7 @@ namespace LEARNING_LAYOUTS
 {
 	public class MvcApplication : System.Web.HttpApplication
 	{
-		public MvcApplication()
-			: base()
+		public MvcApplication() : base()
 		{
 		}
 

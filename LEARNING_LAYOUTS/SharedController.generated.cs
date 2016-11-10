@@ -57,6 +57,7 @@ namespace T4MVC
                     public readonly string _Layout_07 = "_Layout_07";
                     public readonly string _Layout_08 = "_Layout_08";
                     public readonly string _Layout_09 = "_Layout_09";
+                    public readonly string _Layout_Default = "_Layout_Default";
                 }
                 public readonly string _Layout_01 = "~/Views/Shared/Layouts/_Layout_01.cshtml";
                 public readonly string _Layout_02 = "~/Views/Shared/Layouts/_Layout_02.cshtml";
@@ -67,6 +68,7 @@ namespace T4MVC
                 public readonly string _Layout_07 = "~/Views/Shared/Layouts/_Layout_07.cshtml";
                 public readonly string _Layout_08 = "~/Views/Shared/Layouts/_Layout_08.cshtml";
                 public readonly string _Layout_09 = "~/Views/Shared/Layouts/_Layout_09.cshtml";
+                public readonly string _Layout_Default = "~/Views/Shared/Layouts/_Layout_Default.cshtml";
             }
 		}
 	}
