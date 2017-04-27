@@ -25,85 +25,85 @@ using System.Web.Routing;
 using T4MVC;
 namespace LEARNING_LAYOUTS.Controllers
 {
-	public partial class HomeController
-	{
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		protected HomeController(Dummy d) { }
+    public partial class HomeController
+    {
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        protected HomeController(Dummy d) { }
 
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		protected RedirectToRouteResult RedirectToAction(ActionResult result)
-		{
-			var callInfo = result.GetT4MVCResult();
-			return RedirectToRoute(callInfo.RouteValueDictionary);
-		}
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        protected RedirectToRouteResult RedirectToAction(ActionResult result)
+        {
+            var callInfo = result.GetT4MVCResult();
+            return RedirectToRoute(callInfo.RouteValueDictionary);
+        }
 
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		protected RedirectToRouteResult RedirectToAction(Task<ActionResult> taskResult)
-		{
-			return RedirectToAction(taskResult.Result);
-		}
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        protected RedirectToRouteResult RedirectToAction(Task<ActionResult> taskResult)
+        {
+            return RedirectToAction(taskResult.Result);
+        }
 
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		protected RedirectToRouteResult RedirectToActionPermanent(ActionResult result)
-		{
-			var callInfo = result.GetT4MVCResult();
-			return RedirectToRoutePermanent(callInfo.RouteValueDictionary);
-		}
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        protected RedirectToRouteResult RedirectToActionPermanent(ActionResult result)
+        {
+            var callInfo = result.GetT4MVCResult();
+            return RedirectToRoutePermanent(callInfo.RouteValueDictionary);
+        }
 
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		protected RedirectToRouteResult RedirectToActionPermanent(Task<ActionResult> taskResult)
-		{
-			return RedirectToActionPermanent(taskResult.Result);
-		}
-
-
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		public HomeController Actions { get { return MVC.Home; } }
-		[GeneratedCode("T4MVC", "2.0")]
-		public readonly string Area = "";
-		[GeneratedCode("T4MVC", "2.0")]
-		public readonly string Name = "Home";
-		[GeneratedCode("T4MVC", "2.0")]
-		public const string NameConst = "Home";
-		[GeneratedCode("T4MVC", "2.0")]
-		static readonly ActionNamesClass s_actions = new ActionNamesClass();
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		public ActionNamesClass ActionNames { get { return s_actions; } }
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		public class ActionNamesClass
-		{
-			public readonly string Learn_01 = "Learn_01";
-			public readonly string Learn_02 = "Learn_02";
-			public readonly string Learn_03 = "Learn_03";
-			public readonly string Learn_04 = "Learn_04";
-			public readonly string Learn_05 = "Learn_05";
-			public readonly string Learn_06 = "Learn_06";
-			public readonly string Learn_07 = "Learn_07";
-			public readonly string Learn_08 = "Learn_08";
-			public readonly string Learn_09 = "Learn_09";
-		}
-
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		public class ActionNameConstants
-		{
-			public const string Learn_01 = "Learn_01";
-			public const string Learn_02 = "Learn_02";
-			public const string Learn_03 = "Learn_03";
-			public const string Learn_04 = "Learn_04";
-			public const string Learn_05 = "Learn_05";
-			public const string Learn_06 = "Learn_06";
-			public const string Learn_07 = "Learn_07";
-			public const string Learn_08 = "Learn_08";
-			public const string Learn_09 = "Learn_09";
-		}
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        protected RedirectToRouteResult RedirectToActionPermanent(Task<ActionResult> taskResult)
+        {
+            return RedirectToActionPermanent(taskResult.Result);
+        }
 
 
-		static readonly ViewsClass s_views = new ViewsClass();
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		public ViewsClass Views { get { return s_views; } }
-		[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-		public class ViewsClass
-		{
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public HomeController Actions { get { return MVC.Home; } }
+        [GeneratedCode("T4MVC", "2.0")]
+        public readonly string Area = "";
+        [GeneratedCode("T4MVC", "2.0")]
+        public readonly string Name = "Home";
+        [GeneratedCode("T4MVC", "2.0")]
+        public const string NameConst = "Home";
+        [GeneratedCode("T4MVC", "2.0")]
+        static readonly ActionNamesClass s_actions = new ActionNamesClass();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionNamesClass ActionNames { get { return s_actions; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionNamesClass
+        {
+            public readonly string Learn_01 = "Learn_01";
+            public readonly string Learn_02 = "Learn_02";
+            public readonly string Learn_03 = "Learn_03";
+            public readonly string Learn_04 = "Learn_04";
+            public readonly string Learn_05 = "Learn_05";
+            public readonly string Learn_06 = "Learn_06";
+            public readonly string Learn_07 = "Learn_07";
+            public readonly string Learn_08 = "Learn_08";
+            public readonly string Learn_09 = "Learn_09";
+        }
+
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionNameConstants
+        {
+            public const string Learn_01 = "Learn_01";
+            public const string Learn_02 = "Learn_02";
+            public const string Learn_03 = "Learn_03";
+            public const string Learn_04 = "Learn_04";
+            public const string Learn_05 = "Learn_05";
+            public const string Learn_06 = "Learn_06";
+            public const string Learn_07 = "Learn_07";
+            public const string Learn_08 = "Learn_08";
+            public const string Learn_09 = "Learn_09";
+        }
+
+
+        static readonly ViewsClass s_views = new ViewsClass();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ViewsClass Views { get { return s_views; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ViewsClass
+        {
             static readonly _ViewNamesClass s_ViewNames = new _ViewNamesClass();
             public _ViewNamesClass ViewNames { get { return s_ViewNames; } }
             public class _ViewNamesClass
@@ -127,114 +127,114 @@ namespace LEARNING_LAYOUTS.Controllers
             public readonly string Learn_07 = "~/Views/Home/Learn_07.cshtml";
             public readonly string Learn_08 = "~/Views/Home/Learn_08.cshtml";
             public readonly string Learn_09 = "~/Views/Home/Learn_09.cshtml";
-		}
-	}
+        }
+    }
 
-	[GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-	public partial class T4MVC_HomeController : LEARNING_LAYOUTS.Controllers.HomeController
-	{
-		public T4MVC_HomeController() : base(Dummy.Instance) { }
+    [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+    public partial class T4MVC_HomeController : LEARNING_LAYOUTS.Controllers.HomeController
+    {
+        public T4MVC_HomeController() : base(Dummy.Instance) { }
 
-		[NonAction]
-		partial void Learn_01Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_01Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_01()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_01);
-			Learn_01Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_01()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_01);
+            Learn_01Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_02Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_02Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_02()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_02);
-			Learn_02Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_02()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_02);
+            Learn_02Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_03Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_03Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_03()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_03);
-			Learn_03Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_03()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_03);
+            Learn_03Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_04Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_04Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_04()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_04);
-			Learn_04Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_04()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_04);
+            Learn_04Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_05Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_05Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_05()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_05);
-			Learn_05Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_05()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_05);
+            Learn_05Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_06Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_06Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_06()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_06);
-			Learn_06Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_06()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_06);
+            Learn_06Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_07Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_07Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_07()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_07);
-			Learn_07Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_07()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_07);
+            Learn_07Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_08Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_08Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_08()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_08);
-			Learn_08Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_08()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_08);
+            Learn_08Override(callInfo);
+            return callInfo;
+        }
 
-		[NonAction]
-		partial void Learn_09Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+        [NonAction]
+        partial void Learn_09Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
 
-		[NonAction]
-		public override System.Web.Mvc.ViewResult Learn_09()
-		{
-			var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_09);
-			Learn_09Override(callInfo);
-			return callInfo;
-		}
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_09()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_09);
+            Learn_09Override(callInfo);
+            return callInfo;
+        }
 
-	}
+    }
 }
 
 #endregion T4MVC

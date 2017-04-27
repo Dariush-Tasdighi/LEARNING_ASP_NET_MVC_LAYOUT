@@ -19,7 +19,8 @@
 			<div class="col-sm-12">
 				@if (IsSectionDefined(name: "SomeSection"))
 				{
-					@RenderSection(name: "SomeSection", required: false)
+					@RenderSection(name: "SomeSection")
+					@*@RenderSection(name: "SomeSection", required: false)*@
 				}
 				else
 				{
@@ -29,7 +30,7 @@
 		</div>
 
 		<h1>
-			Layout: Learn (5)
+			Layout: Learn (6)
 		</h1>
 
 		@RenderBody()
