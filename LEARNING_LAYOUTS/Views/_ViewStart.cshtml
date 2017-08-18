@@ -3,7 +3,7 @@
 	// Step (3)
 	// </summary>
 	Layout =
-		"~/Views/Shared/Layouts/Layout_08.cshtml";
+		"~/Views/Shared/Layouts/_Layout_08.cshtml";
 
 	// **************************************************
 	// Note: کار نمی‌کند
@@ -11,6 +11,11 @@
 
 	// Note: کار نمی‌کند
 	//ViewBag.SomeVariable2 = "Some Variable 2!";
+
+	// Tanx Mr. Reza Shazari
+	string strTemp = ViewContext.ViewBag.SomeVariable1;
+
+	ViewContext.ViewBag.SomeVariable2 = "Some Variable 2!";
 	// **************************************************
 
 	// **************************************************

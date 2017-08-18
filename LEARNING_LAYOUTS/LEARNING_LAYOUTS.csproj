@@ -116,19 +116,19 @@
     <None Include="T4MVC.tt.settings.xml" />
     <Content Include="Web.config" />
     <Content Include="Views\Home\Learn_01.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_02.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_02.cshtml" />
     <Content Include="Views\Home\Learn_02.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_03.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_03.cshtml" />
     <Content Include="Views\Home\Learn_03.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_04.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_04.cshtml" />
     <Content Include="Views\Home\Learn_04.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_05.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_05.cshtml" />
     <Content Include="Views\Home\Learn_05.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_06.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_06.cshtml" />
     <Content Include="Views\Home\Learn_06.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_07.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_07.cshtml" />
     <Content Include="Views\Home\Learn_07.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_08.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_08.cshtml" />
     <Content Include="Views\Home\Learn_08.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
@@ -154,10 +154,10 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Views\Shared\Layouts\Layout_01.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_09.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_01.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_09.cshtml" />
     <Content Include="Views\Home\Learn_09.cshtml" />
-    <Content Include="Views\Shared\Layouts\Layout_Default.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout_Default.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
