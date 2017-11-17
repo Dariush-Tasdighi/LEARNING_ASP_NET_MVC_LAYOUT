@@ -70,5 +70,11 @@ namespace LEARNING_LAYOUTS.Controllers
 		{
 			return (View());
 		}
+
+		[System.Web.Mvc.HttpGet]
+		public virtual System.Web.Mvc.ViewResult Learn_10()
+		{
+			return (View());
+		}
 	}
 }

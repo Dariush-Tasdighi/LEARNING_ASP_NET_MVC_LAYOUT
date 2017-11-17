@@ -81,6 +81,7 @@ namespace LEARNING_LAYOUTS.Controllers
             public readonly string Learn_07 = "Learn_07";
             public readonly string Learn_08 = "Learn_08";
             public readonly string Learn_09 = "Learn_09";
+            public readonly string Learn_10 = "Learn_10";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -95,6 +96,7 @@ namespace LEARNING_LAYOUTS.Controllers
             public const string Learn_07 = "Learn_07";
             public const string Learn_08 = "Learn_08";
             public const string Learn_09 = "Learn_09";
+            public const string Learn_10 = "Learn_10";
         }
 
 
@@ -108,6 +110,7 @@ namespace LEARNING_LAYOUTS.Controllers
             public _ViewNamesClass ViewNames { get { return s_ViewNames; } }
             public class _ViewNamesClass
             {
+                public readonly string _ViewStart = "_ViewStart";
                 public readonly string Learn_01 = "Learn_01";
                 public readonly string Learn_02 = "Learn_02";
                 public readonly string Learn_03 = "Learn_03";
@@ -117,7 +120,9 @@ namespace LEARNING_LAYOUTS.Controllers
                 public readonly string Learn_07 = "Learn_07";
                 public readonly string Learn_08 = "Learn_08";
                 public readonly string Learn_09 = "Learn_09";
+                public readonly string Learn_10 = "Learn_10";
             }
+            public readonly string _ViewStart = "~/Views/Home/_ViewStart.cshtml";
             public readonly string Learn_01 = "~/Views/Home/Learn_01.cshtml";
             public readonly string Learn_02 = "~/Views/Home/Learn_02.cshtml";
             public readonly string Learn_03 = "~/Views/Home/Learn_03.cshtml";
@@ -127,6 +132,7 @@ namespace LEARNING_LAYOUTS.Controllers
             public readonly string Learn_07 = "~/Views/Home/Learn_07.cshtml";
             public readonly string Learn_08 = "~/Views/Home/Learn_08.cshtml";
             public readonly string Learn_09 = "~/Views/Home/Learn_09.cshtml";
+            public readonly string Learn_10 = "~/Views/Home/Learn_10.cshtml";
         }
     }
 
@@ -231,6 +237,17 @@ namespace LEARNING_LAYOUTS.Controllers
         {
             var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_09);
             Learn_09Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_10Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_10()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_10);
+            Learn_10Override(callInfo);
             return callInfo;
         }
 
