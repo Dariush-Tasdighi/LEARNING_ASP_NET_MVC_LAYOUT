@@ -12,10 +12,8 @@
 
 	@RenderSection(name: "StyleSheetExceptions", required: false)
 
-	<script src="@(Links.Scripts.jquery_3_1_1_min_js)"></script>
+	<script src="@(Links.Scripts.jquery_3_3_1_min_js)"></script>
 	<script src="@(Links.Scripts.bootstrap_min_js)"></script>
-
-	@RenderSection(name: "JavaScriptExceptions", required: false)
 </head>
 <body>
 	<div class="container">
@@ -25,5 +23,7 @@
 
 		@RenderBody()
 	</div>
+
+	@RenderSection(name: "JavaScriptExceptions", required: false)
 </body>
 </html>

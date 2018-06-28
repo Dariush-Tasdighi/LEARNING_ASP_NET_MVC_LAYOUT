@@ -1,7 +1,4 @@
-﻿using System.Linq;
-//using System.Data.Entity;
-
-namespace LEARNING_LAYOUTS
+﻿namespace LEARNING_LAYOUTS
 {
 	public class MvcApplication : System.Web.HttpApplication
 	{

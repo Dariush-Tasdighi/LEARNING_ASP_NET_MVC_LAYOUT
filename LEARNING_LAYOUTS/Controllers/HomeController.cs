@@ -1,7 +1,4 @@
-﻿using System.Linq;
-//using System.Data.Entity;
-
-namespace LEARNING_LAYOUTS.Controllers
+﻿namespace LEARNING_LAYOUTS.Controllers
 {
 	public partial class HomeController : System.Web.Mvc.Controller
 	{
