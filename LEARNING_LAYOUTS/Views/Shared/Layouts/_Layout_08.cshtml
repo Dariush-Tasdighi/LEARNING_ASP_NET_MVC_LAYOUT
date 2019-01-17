@@ -21,18 +21,20 @@
 			Layout: Learn (8)
 		</h1>
 
-		<div class="row">
-			<div class="col-xs-12">
-				ViewBag.SomeVariable1: @(ViewBag.SomeVariable1)
-				<br />
-				ViewBag.SomeVariable3: @(ViewBag.SomeVariable3)
-			</div>
-		</div>
+		<h3>
+			In the Layout:
+			<br />
+			SomeVariable1: @(ViewBag.SomeVariable1)
+			<br />
+			SomeVariable2: @(ViewBag.SomeVariable2)
+			<br />
+			SomeVariable2: @(ViewBag.SomeVariable3)
+		</h3>
 
 		@*
-			// <summary>
-			// Step (6)
-			// </summary>
+		// <summary>
+		// Step (6)
+		// </summary>
 		*@
 
 		@RenderBody()

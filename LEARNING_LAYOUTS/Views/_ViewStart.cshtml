@@ -19,16 +19,16 @@
 	// **************************************************
 
 	// **************************************************
-	//System.DateTime dtmNow = System.DateTime.Now;
+	//System.DateTime now = System.DateTime.Now;
 
-	//if(dtmNow.Hour < 8)
+	//if (now.Hour < 8)
 	//{
 	//	Layout =
 	//		"~/Views/Shared/Layouts/Layout_Moon.cshtml";
 	//}
 	//else
 	//{
-	//	if(dtmNow.Hour < 16)
+	//	if (now.Hour < 16)
 	//	{
 	//		Layout =
 	//			"~/Views/Shared/Layouts/Layout_Sun.cshtml";
@@ -42,16 +42,16 @@
 	// **************************************************
 
 	// **************************************************
-	//string strCultureName =
+	//string cultureName =
 	//	System.Threading.Thread.CurrentThread.CurrentCulture.Name.Substring(0, 2).ToUpper();
 
-	//switch (strCultureName)
+	//switch (cultureName)
 	//{
 	//	case "FA":
 	//	case "AR":
 	//	{
 	//		Layout =
-	//			"~/Views/Shared/Layouts/Layout_Rtl.cshtml";
+	//			"~/Views/Shared/Layouts/_Layout_Rtl.cshtml";
 
 	//		break;
 	//	}
@@ -59,7 +59,7 @@
 	//	default:
 	//	{
 	//		Layout =
-	//			"~/Views/Shared/Layouts/Layout_Ltr.cshtml";
+	//			"~/Views/Shared/Layouts/_Layout_Ltr.cshtml";
 
 	//		break;
 	//	}

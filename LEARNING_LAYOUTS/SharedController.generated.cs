@@ -48,6 +48,7 @@ namespace T4MVC
                 public _ViewNamesClass ViewNames { get { return s_ViewNames; } }
                 public class _ViewNamesClass
                 {
+                    public readonly string _Default = "_Default";
                     public readonly string _Layout_01 = "_Layout_01";
                     public readonly string _Layout_02 = "_Layout_02";
                     public readonly string _Layout_03 = "_Layout_03";
@@ -57,8 +58,8 @@ namespace T4MVC
                     public readonly string _Layout_07 = "_Layout_07";
                     public readonly string _Layout_08 = "_Layout_08";
                     public readonly string _Layout_09 = "_Layout_09";
-                    public readonly string _Layout_Default = "_Layout_Default";
                 }
+                public readonly string _Default = "~/Views/Shared/Layouts/_Default.cshtml";
                 public readonly string _Layout_01 = "~/Views/Shared/Layouts/_Layout_01.cshtml";
                 public readonly string _Layout_02 = "~/Views/Shared/Layouts/_Layout_02.cshtml";
                 public readonly string _Layout_03 = "~/Views/Shared/Layouts/_Layout_03.cshtml";
@@ -68,7 +69,6 @@ namespace T4MVC
                 public readonly string _Layout_07 = "~/Views/Shared/Layouts/_Layout_07.cshtml";
                 public readonly string _Layout_08 = "~/Views/Shared/Layouts/_Layout_08.cshtml";
                 public readonly string _Layout_09 = "~/Views/Shared/Layouts/_Layout_09.cshtml";
-                public readonly string _Layout_Default = "~/Views/Shared/Layouts/_Layout_Default.cshtml";
             }
         }
     }

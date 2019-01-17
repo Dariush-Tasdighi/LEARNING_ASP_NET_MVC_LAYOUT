@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using System.Web.Mvc;
-//using System.Data.Entity;
+﻿using System.Web.Mvc;
 
 namespace LEARNING_LAYOUTS
 {

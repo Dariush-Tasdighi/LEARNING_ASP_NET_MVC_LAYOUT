@@ -12,43 +12,43 @@
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_01()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_02()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_03()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_04()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_05()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_06()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_07()
 		{
-			return (View());
+			return View();
 		}
 
 		/// <summary>
@@ -59,19 +59,19 @@
 		{
 			ViewBag.SomeVariable1 = "Some Variable 1!";
 
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_09()
 		{
-			return (View());
+			return View();
 		}
 
 		[System.Web.Mvc.HttpGet]
 		public virtual System.Web.Mvc.ViewResult Learn_10()
 		{
-			return (View());
+			return View();
 		}
 	}
 }
