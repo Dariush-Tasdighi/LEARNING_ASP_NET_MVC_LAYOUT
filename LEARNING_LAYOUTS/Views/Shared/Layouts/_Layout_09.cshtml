@@ -11,9 +11,6 @@
 	<link href="@(Links.Content.Site_css)" rel="stylesheet" />
 
 	@RenderSection(name: "StyleSheetExceptions", required: false)
-
-	<script src="@(Links.Scripts.jquery_3_3_1_min_js)"></script>
-	<script src="@(Links.Scripts.bootstrap_min_js)"></script>
 </head>
 <body>
 	<div class="container">
@@ -23,6 +20,9 @@
 
 		@RenderBody()
 	</div>
+
+	<script src="@(Links.Scripts.jquery_3_4_1_min_js)"></script>
+	<script src="@(Links.Scripts.bootstrap_min_js)"></script>
 
 	@RenderSection(name: "JavaScriptExceptions", required: false)
 </body>
